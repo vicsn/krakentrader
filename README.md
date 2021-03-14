@@ -60,10 +60,10 @@ Trades are logged in the `logs` directory. If a trade for that particular user
 has already been made in this month, the trades will not be executed and the
 app will exit.
 
-## TODOs
-- Move TODOs into issues.
+## Improvements
 - The current price may be suboptimal: when prices keep rising the order may
   never be fullfilled. When prices keep falling you may be paying "too much".
   Therefore, a market order may be more appropriate.
-- Split program into functions and check for DRYness.
-- Add tests
+- The program should be split into smaller functions and files to improve
+  readability.
+- A "dry run" option can be added.
